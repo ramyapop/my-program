@@ -1,0 +1,508 @@
+package com.mywork;
+
+public class Nested_Loop {
+
+	public static void main(String[] args) {//COLUM BASED ON ROW
+		
+		
+		
+		System.out.println("start");
+
+		
+		
+		for (int i = 1; i <=4; i++) { //it indicates row /outer  for loop/ static
+	
+			
+			for (int j = 1; j <=i; j++) { //it indicates column/ inner/dynamic
+
+				
+				
+				System.out.print(i+ " ");
+	
+	
+	}
+	
+	System.out.println();
+}
+		
+	System.out.println("end");	
+		
+	}
+
+}
+-------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class Addition {
+
+	public static void main(String[] args) { //arithmetic operator -- addition
+
+		
+		int a=10;
+		int b=20;
+		System.out.println(a+b);
+	}
+
+}
+
+//example of arithmetic operator -- subtraction , multiplication,division 
+
+// psvm ---main method{
+
+// int a=30;                   int a=50;                  int a=80;
+// int b=30;                   int b=20;                  int b=20;
+//syso ---(a-b);               ---(a*b);                  ---(a/b);
+
+
+//}
+//}
+
+//output = 10                       100                       4  
+------------------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class Do_While {
+
+	public static void main(String[] args) {
+
+		
+		int a=50;
+		
+		do {
+			
+			
+			System.out.println(a);
+			
+			a++;
+			
+			
+			
+			
+			
+		} while (a<=55);
+		
+		
+	}
+}
+-------------------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class Else_If {
+
+	public static void main(String[] args) {// its a block and we can given multiple condition
+
+		int a=10;
+		if (a>=20) {
+			System.out.println("One");
+		}
+		else if (a<=5) {
+			
+			
+			System.out.println("Two");
+			
+		}
+	
+		else if (a>=6) {
+			
+			System.out.println("Three");
+		}
+		
+		else {
+			System.out.println("terminate and exit loop");
+		}
+	}
+	
+	
+
+}
+----------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class If_Else {
+
+	public static void main(String[] args) {
+
+		   int a=10;
+		    
+		   
+		   if (a>=20) {
+			
+			   System.out.println("condition is true");
+		} 
+		   else {
+			   
+			   
+			   System.out.println("condition is false");
+
+		}
+		
+	}
+
+	
+	
+	 
+	
+}
+------------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class If {
+
+
+		public static void main(String[] args) {//will check the condition if true na true or will terminate
+			
+			int a=50;
+			
+			if (a<=20) {
+				
+				System.out.println("true");
+				
+			}
+		
+			
+			 else {
+					
+					System.out.println("false");
+
+				}
+				
+			
+			
+		}
+		
+		
+}
+---------------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class Increment_Operator {
+
+	public static void main(String[] args) {
+    
+		
+		int a=55;
+		
+		System.out.println(++a); //increment operator (++a)
+		
+		
+		
+		
+		
+		
+		
+		//decrement operator
+		
+		int b=8;
+		
+		System.out.println(--b);
+		
+		
+		
+		
+	}
+
+}
+ ----------------------------------------------------------------------------------------
+
+
+
+package com.mywork;
+
+public class Loop_Concept {//while loop --entry level condition check
+
+	public static void main(String[] args) {// while loop
+
+		
+		int a=20;
+		int b=50;
+		while (a<b) {
+			
+			System.out.println(a);
+			
+			a++;
+			
+			
+		}
+		
+		
+		
+	}
+}
+-----------------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class Modules {//topic ----modules returns remainder value only
+
+	public static void main(String[] args) {
+
+		float a=50;
+		float b=30;
+		System.out.println("remainder value is" + a%b);  //print the remainder value
+		System.out.println("Quotient value is " + a/b);  //print the Quotient value
+		
+	}
+
+}
+------------------------------------------------------------------------------------------
+
+
+package com.mywork;
+
+import java.util.Scanner;
+
+public class My_Work {
+
+	public static void main(String[] args) {// scanner is a class
+
+		Scanner s=new Scanner(System.in); //system is a final class //.in ---input stream 
+		
+System.out.println("what is u r age ?");
+		
+        byte nextByte = s.nextByte();      //s.next
+        
+        System.out.println("my age is " + nextByte);
+        
+        System.out.println("what is your id");
+        
+        
+        byte nextByte2 = s.nextByte();
+        System.out.println("my id is"+ nextByte2);
+        
+        
+        System.out.println("what i u r native ?");
+       String next = s.next();
+       System.out.println("my native is "+ next);
+        
+       
+       
+        s.nextLine();// to avoid data confusion from  next and nextLine declaration
+       
+       
+       
+        
+    System.out.println("what is ur name?"); //s.nextLine
+
+String nextLine = s.nextLine();
+System.out.println("my name "+ nextLine);
+
+
+
+System.out.println("what is ur address?");
+
+
+String nextLine2 = s.nextLine();
+System.out.println("my address is " + nextLine2);
+        
+        
+        
+	}
+
+}
+--------------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class Nested_Loop {
+
+	public static void main(String[] args) {//COLUM BASED ON ROW
+		
+		
+		
+		System.out.println("start");
+
+		
+		
+		for (int i = 1; i <=4; i++) { //it indicates row /outer  for loop/ static
+	
+			
+			for (int j = 1; j <=i; j++) { //it indicates column/ inner/dynamic
+
+				
+				
+				System.out.print(i+ " ");
+	
+	
+	}
+	
+	System.out.println();
+}
+		
+	System.out.println("end");	
+		
+	}
+
+}
+--------------------------------------------------------------------------------------
+
+ package com.mywork;
+
+public class String_Operator {
+
+	public static void main(String[] args) {//string operator  //  merging the given data
+
+		
+	String a= "10";
+	String b= "20";
+	System.out.println(a+b);
+	
+	
+	
+	String c="sridharan";
+	String d="manoharan";
+	System.out.println(c+d);
+	
+	String e="AB";
+	String f="CD";
+	System.out.println(e+f);
+			
+	
+	
+	
+	}
+
+}
+-----------------------------------------------------------------------------------------------
+
+package com.mywork;
+
+public class Switch_Case {
+
+	public static void main(String[] args) {// topic -----switch case 
+
+		
+		
+		int a=40;
+		
+		
+	switch (a) {
+	
+	
+	case 10:
+			
+		System.out.println("one");
+			break;
+
+	case 20:
+
+		
+		System.out.println("Two");
+       
+		break;
+		
+	case 30:
+		System.out.println("three");
+		
+	   break;
+	   
+	case 40:
+		System.out.println("four");
+		
+		break;
+		
+	default:
+			
+			
+		System.out.println("switch condition printed as default");
+	   break;
+		}
+	}
+
+}
+---------------------------------------------------------------------------------------
+
+for loop task 1
+
+package com.tcs;
+
+public class Math { // for loop task1  output = start 123 end 
+
+	public static void main(String[] args) {
+		System.out.println("Start");
+  for (int i =1; i <=3; i++) {
+	System.out.println(i);
+}
+  System.out.println("End");
+	}
+
+}
+
+
+-----task 2
+
+
+
+package com.tcs;
+
+public class Task_2 {// task 2 start with 111 and end with 1 looping 
+
+	public static void main(String[] args) {
+		
+		System.out.println("Start");
+		for (int i = 1; i <=3 ; i++) {
+			
+			System.out.print("A");
+		}
+		System.out.println("End");
+		
+
+	}
+
+}
+-------task 3
+
+
+package com.tcs;
+
+public class Task_3 {
+
+	public static void main(String[] args) {
+		System.out.println("Start");
+      for (int i = 1; i <=3; i++) {
+		System.out.println("AAA "+ " ");
+	}
+      System.out.println("End");
+	}
+
+}
+-------------------- task 4
+
+
+package com.tcs;
+
+
+public class Task_4 {
+
+	public static void main(String[] args) {
+
+		
+		System.out.println("Start");
+		
+for (int i = 100; i >=90; i--) {
+	
+	System.out.print(i + " ");
+	
+}	
+System.out.println();
+System.out.println("End");
+		}
+	}
+
+
+-------------------------------------------------end -------------------------------------
+
+
+
+
+
+
+
+
+
+
