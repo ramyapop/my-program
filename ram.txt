@@ -1,6 +1,6 @@
 package com.mywork;
 
-public class Nested_Loop {
+public class Nested_Loop { //condition
 
 	public static void main(String[] args) {//COLUM BASED ON ROW
 		
